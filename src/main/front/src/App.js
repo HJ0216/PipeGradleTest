@@ -26,7 +26,7 @@ const App = () => {
     <div className='App'>
       <header>
         <img src={img1} style={{width: '200px', height: '200px'}} alt='img1' />
-        <h1>SpringBoot /hello로부터 받은 데이터 출력 2023-06-12</h1>
+        <h1>SpringBoot /hello로부터 받은 데이터 출력</h1>
         <ul style={{listStyle: 'none'}}>
           {
             message.map((item, index) => <li key={index}>{item}</li>)
@@ -35,7 +35,7 @@ const App = () => {
         <hr />
 
         <section>
-          <h2>SpringBoot /list로부터 받은 데이터 출력 dated on 2023-06-12</h2>
+          <h2>SpringBoot /list로부터 받은 데이터 출력</h2>
           <ul style={{listStyle: 'none'}}>
           {
             data.map((item, index) => <li key={index}>{item.name} / {item.addr} / {item.age}</li>)
