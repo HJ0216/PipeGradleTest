@@ -25,8 +25,8 @@ const App = () => {
   return (
     <div className='App'>
       <header>
-        <img src={img1} style={{width: '200px', height: '200px'}} />
-        <h1>SpringBoot /hello로부터 받은 데이터 출력 dated on 2023-06-12</h1>
+        <img src={img1} style={{width: '200px', height: '200px'}} alt='img1' />
+        <h1>SpringBoot /hello로부터 받은 데이터 출력</h1>
         <ul style={{listStyle: 'none'}}>
           {
             message.map((item, index) => <li key={index}>{item}</li>)
